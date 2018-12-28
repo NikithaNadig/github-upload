@@ -1,0 +1,6 @@
+while read -r; do
+    array[$i]="$REPLY"
+    let i++
+    done < <(seq 1 10)
+    echo ${array[@]}
+

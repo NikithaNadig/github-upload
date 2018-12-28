@@ -1,0 +1,6 @@
+arr=(a b c d)
+i=2
+arr=("${arr[@]:$i}" 'new' "${arr[@]:$i}")
+echo "${arr[2]}"
+
+

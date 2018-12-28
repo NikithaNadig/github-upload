@@ -1,0 +1,9 @@
+stringVar="Apple Orange Banana Mango"
+arrayVar=(${stringVar// /})
+echo ${arrayvar[0]}
+echo ${arrayVar[3]}
+stringVar="Apple+Orange+Banana+Mango"
+arrayVar=(${stringVar//+? })
+echo ${arrayVar[0]}
+echo ${arrayVar[2]}
+

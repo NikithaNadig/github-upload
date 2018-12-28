@@ -1,0 +1,4 @@
+array[10]="elevenths element"
+array+=('fourth element' 'fifth element')
+array=("${array[@]}" "fourth element" "fifth element")
+

@@ -1,0 +1,5 @@
+if [[ -e $file10.txt ]]
+    then
+    echo "$file10.txt exists"
+    fi
+

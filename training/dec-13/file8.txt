@@ -1,0 +1,7 @@
+arr=(a b c)
+echo "${arr[@]}"
+echo "${!arr[@]}"
+unset -v 'arr[1]'
+echo "${arr[@]}"
+echo "${!arr[@]}"
+
